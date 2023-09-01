@@ -1,1 +1,1 @@
-# LumnaAI
+# LuminaAI
