@@ -1,0 +1,175 @@
+body {
+  padding: 0;
+  margin: 0;
+  margin-top: -2%;
+  font-family: Arial, Helvetica, sans-serif;
+  ;
+}
+
+header {
+  padding: 2%;
+  background-color: #256292;
+  color: white;
+  position: sticky;
+  width: 95vw;
+}
+
+h1#logo {
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: bolder;
+}
+
+ul {
+  margin-top: -26px;
+  list-style-type: none;
+}
+
+li {
+  float: left;
+  display: inline;
+  padding-left: 12%;
+  margin-top: -17px;
+  margin-right: 2%;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline;
+  float: left;
+  position: relative;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  border: 1px aqua solid;
+}
+
+a:focus {
+  background-color: rgb(110, 120, 129);
+}
+
+a:hover {
+  color: bisque;
+}
+
+a:active {
+  text-decoration: line-through;
+}
+
+main {
+  width: 95vw;
+  height: 50vh;
+  margin-top: -27px;
+}
+main{
+  background-color:rgb(215, 201, 185);
+  width: 100vw;
+  height: 122vh;
+}
+div.main_body {
+  background-image: url(./images/background-images_www-3.webp);
+  width: 97vw;
+  padding: 1%;
+  height: 100vh;
+  opacity: 0.5;
+  margin-top: 1.8%;
+}
+h1.welcome,p.welcome{
+  padding-left: 10px;
+  text-align: left;
+}
+h1.services {
+  text-align: center;
+}
+
+h1#large {
+  color: white;
+  font-size: 80px;
+  stroke: 5px black;
+  line-height: 3%;
+  text-align: center;
+  justify-content: center;
+  padding-top: 40vh;
+}
+
+div.text {
+  text-align: center;
+  color: white;
+  word-spacing: 6px;
+  font-size: 30px;
+  stroke: black;
+}
+
+p {
+  padding: 10px 10px;
+  padding-right: 12px;
+  text-align: center;
+  padding-top: 0%;
+  width: 95vw;
+  /* color: white; */
+}
+
+p.text {
+  color: white;
+}
+
+div.card {
+  width: 30vw;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  padding: 20px;
+  padding-left: 10vw;
+  float: left;
+  display: inline;
+  background-color: white;
+  align-items: center;
+  text-align: left;
+}
+
+div.card-text {
+  padding: 10px;
+  font-size: 18px;
+  text-align: left;
+}
+
+div.card1 {
+  width: 30vw;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  padding: 20px;
+  padding-left: 10vw;
+  float: left;
+  display: inline;
+  background-color: white;
+  align-items: center;
+  text-align: left;
+}
+
+div.card-text {
+  padding: 10px;
+  font-size: 18px;
+  text-align: left;
+}
+
+img.card_images {
+  width: 20vw;
+  position: relative;
+}
+
+/* footer {
+  padding: 2%;
+  background-color: #256292;
+  color: white;
+  position: sticky;
+  width: 96vw;
+  margin-bottom: 0%;
+  position: relative;
+  display: block;
+} */
